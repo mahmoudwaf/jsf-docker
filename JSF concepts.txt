@@ -1,0 +1,21 @@
+* Java Server Faces
+* It is a server-side Java framework for web development. 
+* It provides a well-defined programming model
+* consists of rich API and tag libraries.
+* The latest version JSF 2 uses Facelets as its default templating system
+* It is written in Java.
+* The JSF API provides 
+-components (inputText, commandButton etc) and helps to manage their states.
+-server-side validation, data conversion, defining page navigation
+-extensibility, supports for internationalization, accessibility etc.
+* current release is Jsf 2.3
+* Benefits of JavaServer Faces
+- provides clean and clear separation between behavior and presentation
+-JavaServer Faces APIs are layered directly on top of the Servlet API
+-Including of Facelets technology in JavaServer Faces 2.0,
+
+* Prerequisites
+Java 7 
+
+* Example
+https://mkyong.com/jsf2/jsf-2-0-hello-world-example/

@@ -1,0 +1,6 @@
+* create maven jsf project
+mvn archetype:generate -DgroupId=com.jsf.docker -DartifactId=jsf-docker -DarchetypeArtifactId=maven-archetype-webapp  -DarchetypeVersion=1.4  -DinteractiveMode=false
+* add jsf plugin to pom.xml
+
+
+*Create github repository
