@@ -8,4 +8,4 @@ mvn archetype:generate -DgroupId=com.jsf.docker -DartifactId=jsf-docker -Darchet
 /usr/share/maven
 
 *run docker image
-docker container run -p 9091:8080 tomcatsamplewebapp:6
+docker container run -p 9091:8080 tomcatsamplewebapp:7
