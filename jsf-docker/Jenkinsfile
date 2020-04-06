@@ -15,7 +15,7 @@
      
             stage('Create Tomcat Docker Image'){
                 steps {
-                    sh "docker build . -t tomcatsamplewebapp:${env.BUILD_ID}"
+                    sh "docker build ./jsf-docker -t tomcatsamplewebapp:${env.BUILD_ID}"
                 }
             }
      
