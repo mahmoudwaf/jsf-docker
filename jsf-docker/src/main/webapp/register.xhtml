@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:f="http://java.sun.com/jsf/core"      
+      xmlns:h="http://java.sun.com/jsf/html">
+      
+<h:head>
+  <title>User Registration Form</title>
+</h:head>
+<h:body>
+  <h2>JSF 2.0 User Registraion Form</h2>
+  <h:form>
+    <center>
+    <table>
+        <tr>
+          <td>Username:</td>
+          <td><h:inputText value="#{helloBean.username}"></h:inputText></td>
+        </tr>
+        <tr>
+          <td>Password:</td>
+          <td><h:inputSecret value="#{helloBean.password}"></h:inputSecret></td>
+        </tr>
+        
+        <tr>
+          <td>Email:</td>
+          <td><h:inputText value="#{helloBean.email}"></h:inputText></td>
+        </tr>
+        
+        <tr>
+            <td></td>
+            <td><h:commandButton value="Register" action="registerResult"></h:commandButton></td>
+        </tr>
+        
+    </table>
+    </center>
+  </h:form>
+</h:body>
+</html>
