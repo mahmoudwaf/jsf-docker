@@ -4,3 +4,5 @@ mvn archetype:generate -DgroupId=com.jsf.docker -DartifactId=jsf-docker -Darchet
 
 
 *Create github repository
+*create jenkins job
+/usr/share/maven
